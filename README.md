@@ -104,3 +104,6 @@ requests use the original rounding function.
 Remove the added `setenv LD_PRELOAD` option, or remove only this shim's path
 from an existing preload list. Remove the `.so` from the image, rebuild, and
 flash normally. No original camera binaries need restoring.
+
+## Credits
+and sir @ireddragonicy for reference for jepg buffering fix.
