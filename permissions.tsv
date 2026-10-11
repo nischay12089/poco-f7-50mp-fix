@@ -1,0 +1,3 @@
+path	uid	gid	mode	selinux
+system/lib64/libcamera50mp_shim.so	0	0	0644	u:object_r:system_lib_file:s0
+system/etc/init/cameraserver.rc	0	0	0644	u:object_r:system_file:s0

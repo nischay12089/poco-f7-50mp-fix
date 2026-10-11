@@ -1,0 +1,16 @@
+{
+  "port": "CPH2573_16.0.10.501(EX01)",
+  "hardware": "POCO F7 / onyx / arm64",
+  "expected_libcameraservice_sha256": "9e07bc9d94f47baa3674498e0e78465a6e3cd6fa388c4cedcd5caa4bd9798c65",
+  "expected_cameraserver_sha256": "411a049489df160dfb6b46a4df32a59220256e012d81c6beb8026036e72eeb04",
+  "files": {
+    "system/lib64/libcamera50mp_shim.so": {
+      "bytes": 8080,
+      "sha256": "276796d6cb147b6c10b3af67497c70f792d568004363dd860141ffba10d9c076"
+    },
+    "system/etc/init/cameraserver.rc": {
+      "bytes": 1052,
+      "sha256": "56e671cda3a88147502e9f470b4a13ffeb06e225c9b34a2230a4966aba2f72bc"
+    }
+  }
+}

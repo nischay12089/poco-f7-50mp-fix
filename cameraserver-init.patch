@@ -1,0 +1,8 @@
+--- a/system/etc/init/cameraserver.rc
++++ b/system/etc/init/cameraserver.rc
+@@ -1,4 +1,5 @@
+ service cameraserver /system/bin/cameraserver
++    setenv LD_PRELOAD /system/lib64/libcamera50mp_shim.so
+     class main
+     user cameraserver
+     group audio camera system input drmrpc
